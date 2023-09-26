@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go_code/基础学习/条件语句/test"
 	"time"
 )
 
@@ -97,4 +98,6 @@ func main() {
 		}
 	}
 
+	fmt.Println("------------------test01------------------")
+	test.Test01()
 }

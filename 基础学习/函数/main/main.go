@@ -2,6 +2,17 @@ package main
 
 import "fmt"
 
+var nu int = test()
+
+func test() int {
+	fmt.Println("test....")
+	return 1
+}
+
+func init() {
+	fmt.Println("init...........")
+}
+
 func main() {
 	fmt.Println("--------------函数返回两个数的最大值----------------------")
 	fmt.Println(max(10, 15))

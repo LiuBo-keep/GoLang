@@ -126,5 +126,3 @@ go mod 有以下命令：
 
 比较常用的是 init,tidy, edit
 
-### 使用go mod管理一个新项目
-
